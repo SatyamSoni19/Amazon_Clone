@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon2.O</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="navbar">
+
+        <div id="nav_logo" class="border">
+            <a href="https://www.amazon.in/">
+                <div id="logo">
+                    <img class="amazon_logo" src="amazonlogo.jpg" alt="">
+                </div>
+            </a>
+        </div>
+
+        <div id="del_location" class="border">
+            <p id="del_para">Deliver to jabalpur</p>
+            <div id="del_location2">
+            <i id="loc_logo" class="fa-solid fa-location-dot"></i>
+            <p id="del_para2"><b>Update Location</b></p>
+            </div>
+        </div>
+       
+        <div id="nav_search">
+                <select name="Al" id="nav_options">
+                    <option value="All">All</option>
+                    <option value="All categories">All categories</option>
+                    <option value="Amazon Devices">Amazon Devices</option>
+                    <option value="Apps and Games">Apps and Games</option>
+                    <option value="Books">Books</option>
+                    <option value="Clothing">Clothing</option>
+                    <option value="Computer">Computer</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Furniture">Furniture</option>
+                    <option value="Watches">Watches</option>
+                </select>     
+                <input placeholder="Search Amazon.in" id="search">  
+                <div id="search_icon">
+                    <i class="fa-solid fa-magnifying-glass" ></i>
+                </div>
+        </div> 
+
+        <div id="language" class="border">
+            <div id="flag"></div>
+            <select id="lang_select">
+            <option value="EN">EN</option>
+            <option value="Hindi">Hindi</option>
+            </select>
+        </div>
+
+        <div id="account" class="border">
+            <p id="acc_para1">Hello,sign in</p>
+            <p id="acc_para2"><b>Accounts & list</b></p>
+        </div>
+
+        <div id="orders" class="border">
+            <p id="ord_para1">Returns</p>
+            <p id="ord_para2"><b>& Orders</b></p>
+        </div>
+
+        <div id="cart" class="border">
+            <div id="cart_icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <p id="cart_para"><b>Cart</b></p>
+        </div>
+    </div>
+
+    <div id="panel">
+
+        <div id="panel_All" class="border">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+
+        <div id="panel_options">
+            <a  id="panel_p1" href="" class="border">
+                Today's Deals
+            </a>
+            <a   id="panel_p2" href="" class="border">
+                Customer Service
+            </a>
+            <a href="https://www.amazon.in/minitv?ref_=nav_avod_desktop_topnav" class="border">
+                Amazon miniTv
+            </a>
+            <a id="panel_p3" href="" class="border">
+                Registry
+            </a>
+            <a id="panel_p4" href="" class="border">
+                Buy Again
+            </a>
+            <a id="panel_p5" href="https://www.amazon.in/gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc" class="border">
+                Gift Cards
+            </a>
+            <a id="panel_p6" href="https://www.amazon.in/b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3" class="border">
+                Sell
+            </a>
+        </div>
+    </div>
+
+
+    <div class="slider">
+        <div class="slides">
+            <img class="slide" src="main-img.jpg" alt="image">
+            <img class="slide" src="background_img1.jpg">
+            <img class="slide" src="background_img2.jpg">
+            <img class="slide" src="background_img3.jpg">
+            <img class="slide" src="background_img4.jpg">
+            <img class="slide" src="background_img5.jpg">
+            <img class="slide" src="https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg">
+
+        <div id="hero_message">
+            <p>You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a href="https://www.amazon.in">Click here to go to amazon.in</a></p>
+        </div>
+
+        </div>
+            <button class="prev" onclick="prevSlide()">&#10094</button>
+            <button class="next" onclick="nextSlide()">&#10095</button>
+    </div>
+
+
+    <div id="shop_section">
+        <div id="box1" class="box">
+            <h3 class="shop_section_heading">Shop Deals in Fashion</h3>
+            <div id="box1_img"></div>
+            <p><a href="" class="shop_link">see more</a></p>
+        </div>
+        <div id="box2" class="box">
+            <h3 class="shop_section_heading">Deals in Electronic</h3>
+            <div id="box2_img"></div>
+            <p><a href="" class="shop_link">see more</a></p>
+        </div>
+        <div id="box3" class="box">
+            <h3 class="shop_section_heading" id="shop_section_heading3">Fashion trends</h3>
+            <div id="box3_img"></div>
+            <p><a href="" class="shop_link">see more</a></p>
+        </div>
+        <div id="box4" class="box">
+            <h3 class="shop_section_heading">Gaming Accessories</h3>
+            <div id="box4_img"></div>
+            <p><a href="" class="shop_link">see more</a></p>
+        </div>
+    </div>
+
+    <footer>
+        <a href="" id="foot_link">
+            <div id="foot_panel1">
+                Back to top
+            </div>
+        </a>
+
+    <div id="foot_panel2">
+        <ul>
+            <p class="foot_para">Get to Know Us</p>
+        <a href="" class="panel2_link">Careers</a>    
+        <a href="" class="panel2_link">Blog</a>    
+        <a href="" class="panel2_link">About Amazon</a>    
+        <a href="" class="panel2_link">Investor Relations</a>    
+        <a href="" class="panel2_link">Amazon Devices</a>    
+        <a href="" class="panel2_link">Amazon Science</a>    
+        </a>    
+        </ul>
+        <ul>
+            <p class="foot_para">Make money with us</p>
+        <a href="" class="panel2_link">Sell products on Amazon</a>    
+        <a href="" class="panel2_link">Sell on Amazon Business</a>    
+        <a href="" class="panel2_link">Sell apps on Amazon</a>    
+        <a href="" class="panel2_link">Become an Affiliate</a>    
+        <a href="" class="panel2_link">Advertise your products</a>    
+        <a href="" class="panel2_link">Self-publish with us</a>    
+        <a id="foot_para_text1" class="panel2_link">Host an Amazon Hub</a>    
+        <a id="foot_para_text2" class="panel2_link">›See More Make Money with Us</a>    
+        </ul>
+        <ul>
+            <p class="foot_para">Amazon payment products</p>
+        <a href="" class="panel2_link">Amazon Business Card</a>    
+        <a href="" class="panel2_link">Shop with Points</a>    
+        <a href="" class="panel2_link">Reload Your Balance</a>    
+        <a href="" class="panel2_link">Amazon Currency Converter</a>    
+        </ul>
+        <ul>
+            <p class="foot_para">Let us help you</p>
+        <a href="" class="panel2_link">Amazon and COVID-19</a>    
+        <a href="" class="panel2_link">Your Account</a>    
+        <a href="" class="panel2_link">Your Orders</a>    
+        <a href="" class="panel2_link">Shipping Rates & Policies</a>    
+        <a href="" class="panel2_link">Returns & Replacements</a>    
+        <a href="" class="panel2_link">Manage Your Content and Devices</a>    
+        <a href="" class="panel2_link">Amazon Assistant</a>    
+        <a href="" class="panel2_link">Help</a>   
+        </ul>
+    </div>
+
+    <div id="foot_panel3">
+        <div id="foot_logo"></div>
+    </div>
+
+    <div id="foot_panel4">
+            <div id="panel4_1">
+                <a href="" class="panel4_link">Conditions of Use</a>
+                <a href="" class="panel4_link">Privacy Notice</a>
+                <a href="" class="panel4_link">Consumer Health Data Privacy Disclosure</a>
+                <a href="" class="panel4_link">Your Ads Privacy Choices</a>
+            </div>  
+        <div id="panel4_2"></div>
+        <div id="copywrite">© 1996-2024, Amazon.com, Inc. or its affiliates</div>
+    </div>
+</footer>
+    <script src="script.js"></script>
+</body>
+</html>
